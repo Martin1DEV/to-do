@@ -24,9 +24,10 @@ const handleDateChange=(e)=>{
 }
 const handleAddTask=()=>{
     props.addTask(text, checkbox, date);
+    if(text&&date){
     setText('');
     setCheckbox(false);
-    setDate('')
+    setDate('')}
 }
 
     return (

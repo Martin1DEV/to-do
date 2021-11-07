@@ -3,5 +3,16 @@ div#tasksList{
     justify-content: center;
     margin-top: 50px;
     min-height: 80vh;
+    
    
+}
+h2{
+    text-align: center;
+    font-size: 4rem;
+}
+
+#line{
+    border-bottom: 2px solid black;
+    width: 80vw;
+    margin: 50px auto;
 }

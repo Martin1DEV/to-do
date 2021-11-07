@@ -1,9 +1,9 @@
-div.task span{
+div.taskActive span , .taskDone{
     font-family: 'Roboto', sans-serif;
     font-size: 2rem;
     padding: 10px;
 }
-div.task{
+div.taskActive , .taskDone{
    
     text-align: center;
     width: 70vw;
@@ -11,10 +11,16 @@ div.task{
     margin-bottom: 5px;
     background-color: rgb(209, 209, 209);
 }
+
 .task button{
     border: none;
     padding:5px;
     height: 27px;
     margin-left: 15px;
     cursor: pointer;
+}
+
+.taskDone span:nth-child(1){
+    text-decoration: line-through;
+
 }
